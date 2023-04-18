@@ -1,4 +1,3 @@
-# BAIS-3500-week6-hw
-Personal Webpage for Digital Product Management week 6
+Daniel Hospodarsky Final Portfolio Project
 
-Version 1.0 Created 2-26-2023
+Version 1.0 Created 4-18-22
