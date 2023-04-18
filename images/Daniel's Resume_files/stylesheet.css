@@ -1,0 +1,99 @@
+.wrapper{
+    background-color: #CAD8E3;
+}
+
+header{
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin: 15px;
+    text-align: center;
+    color: #10314A;
+}
+
+body { 
+    color: #10314A;
+}
+
+nav{
+    padding-bottom: 10px;
+    margin: 15px;
+}
+
+/* LINKS CSS*/
+a{
+    color: #10314A;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+a:link {
+    color: #206599;
+}
+  
+  /* mouse over link */
+  a:hover {
+    color: #2A84C9;
+    padding: 2px;
+}
+
+
+main{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 15px;
+}
+
+/* Table CSS*/
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td{
+    text-align: center;
+    padding: 8px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+
+footer{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    color: #10314A;
+}
+
+/* NAVIGATION CSS*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2F404D;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #CAD8E3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #CAD8E3;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #2A84C9;
+    color: #CAD8E3;
+  }
