@@ -19,6 +19,12 @@
 </head>
 <body class="wrapper">
 
+<!-- Cookie popup HTML code -->
+<div id="cookie-popup">
+    <p>We use cookies to improve your experience on our website. By using our website, you agree to our use of cookies. <a href="./cookiepolicy.html">Learn more</a></p>
+    <button onclick="acceptCookies()">Accept</button>
+  </div>
+
     <nav>
         <div class="topnav">
             <a class="active" href="./index.html"> Home </a>
@@ -49,6 +55,23 @@
         </p>
 
     </main>
+    
+    <!-- Cookie popup JavaScript code -->
+    <script>
+        function acceptCookies() {
+          // Set cookiesAccepted flag to true in a cookie with a 30-day expiration time
+          document.cookie = "cookiesAccepted=true; expires=" + new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toUTCString();
+  
+          // Hide cookie popup
+          document.getElementById('cookie-popup').style.display = 'none';
+        }
+  
+        // Check if user has accepted cookies
+        if (document.cookie.indexOf("cookiesAccepted=true") === -1) {
+          // Show cookie popup
+          document.getElementById('cookie-popup').style.display = 'block';
+        }
+      </script>
 
     <footer>
         <a href="./privatepolicy.html"> Private Policy |</a>
